@@ -1,0 +1,1 @@
+JKActiveLabel, A UILabel can become first responder and show inputView with method such as cell.detailLable.inputView = picker;
