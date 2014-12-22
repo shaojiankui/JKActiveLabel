@@ -15,14 +15,10 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
-        [self addGesture];
     }
     return self;
 }
--(void)awakeFromNib{
-    [super awakeFromNib];
-    [self addGesture];
-}
+
 -(void)addGesture{
     UITapGestureRecognizer *tap=[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap:)];
     
@@ -42,6 +38,7 @@
 -(void)setLableTouched:(TouchLabel)toucheLable{
     if (toucheLable) {
         _toucheLable = [toucheLable copy];
+        [self addGesture];
     }
 }
 -(void)tap:(UITapGestureRecognizer *)tap
