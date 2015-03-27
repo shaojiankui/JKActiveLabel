@@ -26,6 +26,11 @@
     tap.numberOfTapsRequired =1 ;
     tap.numberOfTouchesRequired = 1;
 }
+-(void)willMoveToSuperview:(UIView *)newSuperview{
+    if (newSuperview) {
+        [self addGesture];
+    }
+}
 - (BOOL)isUserInteractionEnabled
 {
     return YES;
@@ -36,15 +41,12 @@
     return YES;
 }
 -(void)setLableTouched:(TouchLabel)toucheLable{
-    if (toucheLable) {
-        _toucheLable = [toucheLable copy];
-        [self addGesture];
-    }
+    _toucheLable = toucheLable;
 }
 -(void)tap:(UITapGestureRecognizer *)tap
 
 {
-    if (tap) {
+    if (tap && _toucheLable) {
         _toucheLable((UILabel*)tap.view);
     }
 }
