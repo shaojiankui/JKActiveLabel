@@ -46,7 +46,7 @@
 -(void)tap:(UITapGestureRecognizer *)tap
 
 {
-    if (tap && _toucheLable) {
+    if (tap && _toucheLable  && self.enabled) {
         _toucheLable((UILabel*)tap.view);
     }
 }
