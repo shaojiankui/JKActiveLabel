@@ -14,7 +14,12 @@ typedef void (^TouchLabel)(UILabel *lable);
 }
 @property (readwrite) UIView *inputView;
 @property (readwrite) UIView *inputAccessoryView;
-
+/**
+ *  @author Jakey, 16-05-10 17:05:53
+ *
+ *  上下左右可调文字间距
+ */
+@property(nonatomic) UIEdgeInsets edgeInsets;
 - (BOOL) canBecomeFirstResponder;
 - (BOOL) isUserInteractionEnabled;
 -(void)setLableTouched:(TouchLabel)toucheLable;

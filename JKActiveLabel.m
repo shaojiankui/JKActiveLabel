@@ -50,4 +50,11 @@
         _toucheLable((UILabel*)tap.view);
     }
 }
+-(void)setEdgeInsets:(UIEdgeInsets)edgeInsets{
+    _edgeInsets= edgeInsets;
+    [self setNeedsDisplay];
+}
+-(void)drawTextInRect:(CGRect)rect {
+    return [super drawTextInRect:UIEdgeInsetsInsetRect(rect, self.edgeInsets)];
+}
 @end
