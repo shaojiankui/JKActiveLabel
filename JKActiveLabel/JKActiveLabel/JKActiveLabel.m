@@ -1,9 +1,9 @@
 //
 //  JKActiveLabel.m
-//  vw-service
+//  JKActiveLabel
 //
 //  Created by Jakey on 14/11/24.
-//  Copyright (c) 2014年 jakey. All rights reserved.
+//  Copyright (c) 2014年 www.skyfox.org. All rights reserved.
 //
 
 #import "JKActiveLabel.h"
@@ -49,5 +49,12 @@
     if (tap && _toucheLable  && self.enabled) {
         _toucheLable((UILabel*)tap.view);
     }
+}
+-(void)setEdgeInsets:(UIEdgeInsets)edgeInsets{
+    _edgeInsets= edgeInsets;
+    [self setNeedsDisplay];
+}
+-(void)drawTextInRect:(CGRect)rect {
+    return [super drawTextInRect:UIEdgeInsetsInsetRect(rect, self.edgeInsets)];
 }
 @end

@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B897D8C81D190FC100EE7721 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B897D8C71D190FC100EE7721 /* main.m */; };
+		B897D8CB1D190FC100EE7721 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B897D8CA1D190FC100EE7721 /* AppDelegate.m */; };
+		B897D8CE1D190FC100EE7721 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B897D8CD1D190FC100EE7721 /* ViewController.m */; };
+		B897D8D11D190FC100EE7721 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B897D8CF1D190FC100EE7721 /* Main.storyboard */; };
+		B897D8D31D190FC100EE7721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B897D8D21D190FC100EE7721 /* Assets.xcassets */; };
+		B897D8D61D190FC100EE7721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B897D8D41D190FC100EE7721 /* LaunchScreen.storyboard */; };
+		B897D8E01D19100000EE7721 /* JKActiveLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B897D8DF1D19100000EE7721 /* JKActiveLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B897D8C31D190FC000EE7721 /* JKActiveLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKActiveLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B897D8C71D190FC100EE7721 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B897D8C91D190FC100EE7721 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B897D8CA1D190FC100EE7721 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B897D8CC1D190FC100EE7721 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B897D8CD1D190FC100EE7721 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B897D8D01D190FC100EE7721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B897D8D21D190FC100EE7721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B897D8D51D190FC100EE7721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B897D8D71D190FC100EE7721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B897D8DE1D19100000EE7721 /* JKActiveLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKActiveLabel.h; sourceTree = "<group>"; };
+		B897D8DF1D19100000EE7721 /* JKActiveLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKActiveLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B897D8C01D190FC000EE7721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B897D8BA1D190FC000EE7721 = {
+			isa = PBXGroup;
+			children = (
+				B897D8C51D190FC100EE7721 /* JKActiveLabel */,
+				B897D8C41D190FC000EE7721 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B897D8C41D190FC000EE7721 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B897D8C31D190FC000EE7721 /* JKActiveLabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B897D8C51D190FC100EE7721 /* JKActiveLabel */ = {
+			isa = PBXGroup;
+			children = (
+				B897D8DD1D19100000EE7721 /* JKActiveLabel */,
+				B897D8C91D190FC100EE7721 /* AppDelegate.h */,
+				B897D8CA1D190FC100EE7721 /* AppDelegate.m */,
+				B897D8CC1D190FC100EE7721 /* ViewController.h */,
+				B897D8CD1D190FC100EE7721 /* ViewController.m */,
+				B897D8CF1D190FC100EE7721 /* Main.storyboard */,
+				B897D8D21D190FC100EE7721 /* Assets.xcassets */,
+				B897D8D41D190FC100EE7721 /* LaunchScreen.storyboard */,
+				B897D8D71D190FC100EE7721 /* Info.plist */,
+				B897D8C61D190FC100EE7721 /* Supporting Files */,
+			);
+			path = JKActiveLabel;
+			sourceTree = "<group>";
+		};
+		B897D8C61D190FC100EE7721 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B897D8C71D190FC100EE7721 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B897D8DD1D19100000EE7721 /* JKActiveLabel */ = {
+			isa = PBXGroup;
+			children = (
+				B897D8DE1D19100000EE7721 /* JKActiveLabel.h */,
+				B897D8DF1D19100000EE7721 /* JKActiveLabel.m */,
+			);
+			path = JKActiveLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B897D8C21D190FC000EE7721 /* JKActiveLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B897D8DA1D190FC100EE7721 /* Build configuration list for PBXNativeTarget "JKActiveLabel" */;
+			buildPhases = (
+				B897D8BF1D190FC000EE7721 /* Sources */,
+				B897D8C01D190FC000EE7721 /* Frameworks */,
+				B897D8C11D190FC000EE7721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKActiveLabel;
+			productName = JKActiveLabel;
+			productReference = B897D8C31D190FC000EE7721 /* JKActiveLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B897D8BB1D190FC000EE7721 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = www.skyfox.org;
+				TargetAttributes = {
+					B897D8C21D190FC000EE7721 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = B897D8BE1D190FC000EE7721 /* Build configuration list for PBXProject "JKActiveLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B897D8BA1D190FC000EE7721;
+			productRefGroup = B897D8C41D190FC000EE7721 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B897D8C21D190FC000EE7721 /* JKActiveLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B897D8C11D190FC000EE7721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B897D8D61D190FC100EE7721 /* LaunchScreen.storyboard in Resources */,
+				B897D8D31D190FC100EE7721 /* Assets.xcassets in Resources */,
+				B897D8D11D190FC100EE7721 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B897D8BF1D190FC000EE7721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B897D8CE1D190FC100EE7721 /* ViewController.m in Sources */,
+				B897D8CB1D190FC100EE7721 /* AppDelegate.m in Sources */,
+				B897D8C81D190FC100EE7721 /* main.m in Sources */,
+				B897D8E01D19100000EE7721 /* JKActiveLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B897D8CF1D190FC100EE7721 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B897D8D01D190FC100EE7721 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B897D8D41D190FC100EE7721 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B897D8D51D190FC100EE7721 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B897D8D81D190FC100EE7721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B897D8D91D190FC100EE7721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B897D8DB1D190FC100EE7721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKActiveLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.skyfox.JKActiveLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B897D8DC1D190FC100EE7721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKActiveLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.skyfox.JKActiveLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B897D8BE1D190FC000EE7721 /* Build configuration list for PBXProject "JKActiveLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B897D8D81D190FC100EE7721 /* Debug */,
+				B897D8D91D190FC100EE7721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B897D8DA1D190FC100EE7721 /* Build configuration list for PBXNativeTarget "JKActiveLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B897D8DB1D190FC100EE7721 /* Debug */,
+				B897D8DC1D190FC100EE7721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B897D8BB1D190FC000EE7721 /* Project object */;
+}
