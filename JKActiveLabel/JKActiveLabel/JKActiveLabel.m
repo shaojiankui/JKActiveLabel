@@ -33,21 +33,23 @@
 }
 - (BOOL)isUserInteractionEnabled
 {
-    return YES;
+    return !_userInteractionDisable;
 }
-
+-(void)setUserInteractionEnabled:(BOOL)userInteractionEnabled{
+    _userInteractionDisable = !userInteractionEnabled;
+}
 - (BOOL)canBecomeFirstResponder
 {
     return YES;
 }
--(void)setLableTouched:(TouchLabel)toucheLable{
-    _toucheLable = toucheLable;
+- (void)activeLabelTouched:(JKActiveLabelTouched)activeLabelTouched{
+    _activeLabelTouched= activeLabelTouched;
 }
 -(void)tap:(UITapGestureRecognizer *)tap
 
 {
-    if (tap && _toucheLable  && self.enabled) {
-        _toucheLable((UILabel*)tap.view);
+    if (tap && _activeLabelTouched  && self.enabled && self.userInteractionEnabled) {
+        _activeLabelTouched((UILabel*)tap.view);
     }
 }
 -(void)setEdgeInsets:(UIEdgeInsets)edgeInsets{

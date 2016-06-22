@@ -17,12 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [self.activeLabel1 setLableTouched:^(UILabel *lable) {
+    [self.activeLabel1 activeLabelTouched:^(UILabel *lable) {
         NSLog(@"activeLabel1 LableTouched");
     }];
     
     self.activeLabel2.edgeInsets = UIEdgeInsetsMake(0, 20, 0, 20);
-}
+    [self.activeLabel2 activeLabelTouched:^(UILabel *lable) {
+        NSLog(@"activeLabel2 LableTouched");
+
+    }];
+ }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

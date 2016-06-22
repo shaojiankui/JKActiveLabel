@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-typedef void (^TouchLabel)(UILabel *lable);
+typedef void (^JKActiveLabelTouched)(UILabel *lable);
 @interface JKActiveLabel : UILabel
 {
-    TouchLabel _toucheLable;
+    JKActiveLabelTouched _activeLabelTouched;
+    BOOL _userInteractionDisable;
 }
 @property (readwrite) UIView *inputView;
 @property (readwrite) UIView *inputAccessoryView;
@@ -22,6 +23,6 @@ typedef void (^TouchLabel)(UILabel *lable);
 @property(nonatomic) UIEdgeInsets edgeInsets;
 - (BOOL) canBecomeFirstResponder;
 - (BOOL) isUserInteractionEnabled;
--(void)setLableTouched:(TouchLabel)toucheLable;
+- (void)activeLabelTouched:(JKActiveLabelTouched)activeLabelTouched;
 
 @end
